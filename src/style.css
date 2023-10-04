@@ -1,1 +1,23 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+#abajo {
+  transform: rotate(180deg);
+}
+.card {
+  margin-bottom: 0;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.figura {
+  font-size: x-large;
+}
+.figura2 {
+  font-size: x-large;
+}
